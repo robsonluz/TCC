@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="home-i" size="967,1802" description="" id="com.agentrj.core.home" metadata="uml2-1.0" initialized="true" tag="1000" key="3230303431303236205443432F41646D696E6973747261646F72">
+  <children xsi:type="editmodel:ClassEditModel" name="ThreadWork1" location="763,1404" size="148,85" id="com.agentrj.core.home/ThreadWork1" runTimeClassModel="ThreadWork1(Lcom.agentrj.core.agents.Agent;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ThreadWork1" id="com.agentrj.core.home/ThreadWork1#ThreadWork1(Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.agentrj.core.home/ThreadWork1#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="HomeClient" location="596,1404" size="135,103" id="com.agentrj.core.home/HomeClient" runTimeClassModel="main([Ljava.lang.String;),HomeClient([Ljava.lang.String;),HomeClient()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,54">
+      <children xsi:type="editmodel:MethodEditModel" name="HomeClient" id="com.agentrj.core.home/HomeClient#HomeClient()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="HomeClient" id="com.agentrj.core.home/HomeClient#HomeClient([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="com.agentrj.core.home/HomeClient#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="HomeImpl" location="112,779" size="304,157" id="com.agentrj.core.home/HomeImpl" runTimeClassModel="getAgents(),transport(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;),updateAgentRef(Lcom.agentrj.core.agents.ref.AgentRef;),HomeImpl(Lcom.agentrj.core.router.ITalkServer;),doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;),disposeAgent(Lcom.agentrj.core.agents.Agent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,108">
+      <children xsi:type="editmodel:MethodEditModel" name="HomeImpl" id="com.agentrj.core.home/HomeImpl#HomeImpl(Lcom.agentrj.core.router.ITalkServer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="transport" id="com.agentrj.core.home/HomeImpl#transport(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgents" id="com.agentrj.core.home/HomeImpl#getAgents()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="disposeAgent" id="com.agentrj.core.home/HomeImpl#disposeAgent(Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doJobAgent" id="com.agentrj.core.home/HomeImpl#doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateAgentRef" id="com.agentrj.core.home/HomeImpl#updateAgentRef(Lcom.agentrj.core.agents.ref.AgentRef;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/IHome&lt;-com.agentrj.core.home/HomeImpl" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,207"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.0" name="IHome" location="50,522" size="304,207" stereotype="interface" id="com.agentrj.core.agents/IHome" runTimeClassModel="getAgents(),transport(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;),updateAgentRef(Lcom.agentrj.core.agents.ref.AgentRef;),getAgentContext(),getRouter(),getMessageManager(),doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;),disposeAgent(Lcom.agentrj.core.agents.Agent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,144">
+      <children xsi:type="editmodel:MethodEditModel" name="transport" id="com.agentrj.core.agents/IHome#transport(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgentContext" id="com.agentrj.core.agents/IHome#getAgentContext()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMessageManager" id="com.agentrj.core.agents/IHome#getMessageManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgents" id="com.agentrj.core.agents/IHome#getAgents()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="disposeAgent" id="com.agentrj.core.agents/IHome#disposeAgent(Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRouter" id="com.agentrj.core.agents/IHome#getRouter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doJobAgent" id="com.agentrj.core.agents/IHome#doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateAgentRef" id="com.agentrj.core.agents/IHome#updateAgentRef(Lcom.agentrj.core.agents.ref.AgentRef;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0" name="AgentContext" location="632,522" size="303,153" stereotype="interface" id="com.agentrj.core.agents/AgentContext" runTimeClassModel="createAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;),createAgent(Ljava.lang.String;Ljava.lang.Object;),getAgentProxy(Ljava.lang.String;),getHome(),getAgentClassLoader()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,90">
+      <children xsi:type="editmodel:MethodEditModel" name="createAgent" id="com.agentrj.core.agents/AgentContext#createAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAgent" id="com.agentrj.core.agents/AgentContext#createAgent(Ljava.lang.String;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgentProxy" id="com.agentrj.core.agents/AgentContext#getAgentProxy(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHome" id="com.agentrj.core.agents/AgentContext#getHome()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgentClassLoader" id="com.agentrj.core.agents/AgentContext#getAgentClassLoader()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AgentContextImpl" location="704,725" size="255,139" id="com.agentrj.core.home/AgentContextImpl" runTimeClassModel="createAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;),createAgent(Ljava.lang.String;Ljava.lang.Object;),getAgentProxy(Ljava.lang.String;),getAgentClassLoader(),AgentContextImpl(Lcom.agentrj.core.agents.IHome;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,90">
+      <children xsi:type="editmodel:MethodEditModel" name="AgentContextImpl" id="com.agentrj.core.home/AgentContextImpl#AgentContextImpl(Lcom.agentrj.core.agents.IHome;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAgent" id="com.agentrj.core.home/AgentContextImpl#createAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAgent" id="com.agentrj.core.home/AgentContextImpl#createAgent(Ljava.lang.String;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgentProxy" id="com.agentrj.core.home/AgentContextImpl#getAgentProxy(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgentClassLoader" id="com.agentrj.core.home/AgentContextImpl#getAgentClassLoader()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/AgentContext&lt;-com.agentrj.core.home/AgentContextImpl" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="187,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="AgentRuntime" location="50,1404" size="307,67" id="com.agentrj.core.agents/AgentRuntime" runTimeClassModel="getAgentRuntime(),getDataManager()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getDataManager" id="com.agentrj.core.agents/AgentRuntime#getDataManager()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AgentRuntimeHome" location="118,1539" size="225,67" id="com.agentrj.core.home/AgentRuntimeHome" runTimeClassModel="createAgentRuntime()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,18">
+      <children xsi:type="editmodel:MethodEditModel" name="createAgentRuntime" id="com.agentrj.core.home/AgentRuntimeHome#createAgentRuntime()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/AgentRuntime&lt;-com.agentrj.core.home/AgentRuntimeHome" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AgentProxyImpl" location="451,271" size="301,157" id="com.agentrj.core.home/AgentProxyImpl" runTimeClassModel="sendMessage(Lcom.agentrj.core.agents.Message;),dispose(),dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;),dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;),setLocaleHome(Lcom.agentrj.core.agents.IHome;),AgentProxyImpl(Lcom.agentrj.core.agents.IHome;Lcom.agentrj.core.agents.AgentAddress;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,108">
+      <children xsi:type="editmodel:MethodEditModel" name="AgentProxyImpl" id="com.agentrj.core.home/AgentProxyImpl#AgentProxyImpl(Lcom.agentrj.core.agents.IHome;Lcom.agentrj.core.agents.AgentAddress;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" id="com.agentrj.core.home/AgentProxyImpl#sendMessage(Lcom.agentrj.core.agents.Message;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispatch" id="com.agentrj.core.home/AgentProxyImpl#dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispatch" id="com.agentrj.core.home/AgentProxyImpl#dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLocaleHome" id="com.agentrj.core.home/AgentProxyImpl#setLocaleHome(Lcom.agentrj.core.agents.IHome;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="com.agentrj.core.home/AgentProxyImpl#dispose()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/AgentProxy&lt;-com.agentrj.core.home/AgentProxyImpl" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="186,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.8/@sourceConnections.0" name="AgentProxy" location="378,50" size="301,171" stereotype="interface" id="com.agentrj.core.agents/AgentProxy" runTimeClassModel="sendMessage(Lcom.agentrj.core.agents.Message;),dispose(),dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;),dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;),setLocaleHome(Lcom.agentrj.core.agents.IHome;),getAgentLocale()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,108">
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" id="com.agentrj.core.agents/AgentProxy#sendMessage(Lcom.agentrj.core.agents.Message;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispatch" id="com.agentrj.core.agents/AgentProxy#dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispatch" id="com.agentrj.core.agents/AgentProxy#dispatch(Lcom.agentrj.core.agents.HomeInfo;Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="com.agentrj.core.agents/AgentProxy#dispose()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLocaleHome" id="com.agentrj.core.agents/AgentProxy#setLocaleHome(Lcom.agentrj.core.agents.IHome;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAgentLocale" id="com.agentrj.core.agents/AgentProxy#getAgentLocale()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0" name="AgentClassLoader" location="50,1044" size="332,103" id="com.agentrj.core.agents/AgentClassLoader" runTimeClassModel="loadAgent(Lcom.agentrj.core.agents.ref.AgentRef;),reset(),loadClass(Ljava.lang.String;Ljava.net.URL;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,54">
+      <children xsi:type="editmodel:MethodEditModel" name="loadAgent" id="com.agentrj.core.agents/AgentClassLoader#loadAgent(Lcom.agentrj.core.agents.ref.AgentRef;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="com.agentrj.core.agents/AgentClassLoader#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadClass" id="com.agentrj.core.agents/AgentClassLoader#loadClass(Ljava.lang.String;Ljava.net.URL;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AgentClassLoaderImpl" location="123,1197" size="190,157" id="com.agentrj.core.home/AgentClassLoaderImpl" runTimeClassModel="loadAgent(Lcom.agentrj.core.agents.ref.AgentRef;),loadClass(Ljava.lang.String;),reset(),AgentClassLoaderImpl(),loadClass(Ljava.lang.String;Ljava.net.URL;),AgentClassLoaderImpl(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,108">
+      <children xsi:type="editmodel:MethodEditModel" name="AgentClassLoaderImpl" id="com.agentrj.core.home/AgentClassLoaderImpl#AgentClassLoaderImpl(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AgentClassLoaderImpl" id="com.agentrj.core.home/AgentClassLoaderImpl#AgentClassLoaderImpl()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="com.agentrj.core.home/AgentClassLoaderImpl#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadAgent" id="com.agentrj.core.home/AgentClassLoaderImpl#loadAgent(Lcom.agentrj.core.agents.ref.AgentRef;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadClass" id="com.agentrj.core.home/AgentClassLoaderImpl#loadClass(Ljava.lang.String;Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadClass" id="com.agentrj.core.home/AgentClassLoaderImpl#loadClass(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/AgentClassLoader&lt;-com.agentrj.core.home/AgentClassLoaderImpl" source="//@children.11" target="//@children.10" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="167,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.0" name="Conf" location="358,522" size="224,319" id="com.agentrj.core.util/Conf" runTimeClassModel="setProperty(Ljava.lang.String;Ljava.lang.String;),deleteProperty(Ljava.lang.String;),propFileExists(),propertyFileExists(),propertyNames(),Conf(Ljava.lang.String;),propertyFileIsReadable(),setPropsName(Ljava.lang.String;),getProperty(Ljava.lang.String;Lcom.agentrj.core.util.Conf;),setProperty(Ljava.lang.String;Ljava.lang.String;Lcom.agentrj.core.util.Conf;),deleteProperty(Ljava.lang.String;Lcom.agentrj.core.util.Conf;),getPropsName(),getProperty(Ljava.lang.String;),propFileIsWritable(),Conf(),propertyFileIsWritable(),propFileIsReadable()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,306">
+      <children xsi:type="editmodel:MethodEditModel" name="Conf" id="com.agentrj.core.util/Conf#Conf()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProperty" id="com.agentrj.core.util/Conf#getProperty(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProperty" id="com.agentrj.core.util/Conf#getProperty(Ljava.lang.String;Lcom.agentrj.core.util.Conf;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setProperty" id="com.agentrj.core.util/Conf#setProperty(Ljava.lang.String;Ljava.lang.String;Lcom.agentrj.core.util.Conf;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deleteProperty" id="com.agentrj.core.util/Conf#deleteProperty(Ljava.lang.String;Lcom.agentrj.core.util.Conf;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setProperty" id="com.agentrj.core.util/Conf#setProperty(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deleteProperty" id="com.agentrj.core.util/Conf#deleteProperty(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propertyNames" id="com.agentrj.core.util/Conf#propertyNames()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propertyFileIsReadable" id="com.agentrj.core.util/Conf#propertyFileIsReadable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propertyFileIsWritable" id="com.agentrj.core.util/Conf#propertyFileIsWritable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propertyFileExists" id="com.agentrj.core.util/Conf#propertyFileExists()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Conf" id="com.agentrj.core.util/Conf#Conf(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propFileIsReadable" id="com.agentrj.core.util/Conf#propFileIsReadable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propFileExists" id="com.agentrj.core.util/Conf#propFileExists()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propFileIsWritable" id="com.agentrj.core.util/Conf#propFileIsWritable()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConfHome" location="415,927" size="172,67" id="com.agentrj.core.home/ConfHome" runTimeClassModel="getProperty(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getProperty" id="com.agentrj.core.home/ConfHome#getProperty(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.util/Conf&lt;-com.agentrj.core.home/ConfHome" source="//@children.13" target="//@children.12" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,319"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TalkClient" location="407,1625" size="287,157" id="com.agentrj.core.home/TalkClient" runTimeClassModel="sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;),updateAgentsRef([Lcom.agentrj.core.agents.ref.AgentRef;),receptAgent(Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;),TalkClient(Lcom.agentrj.core.agents.IHome;),doJobAgent(Lcom.agentrj.core.agents.Agent;),doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="TalkClient" id="com.agentrj.core.home/TalkClient#TalkClient(Lcom.agentrj.core.agents.IHome;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doJobAgent" id="com.agentrj.core.home/TalkClient#doJobAgent(Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receptAgent" id="com.agentrj.core.home/TalkClient#receptAgent(Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doJobAgent" id="com.agentrj.core.home/TalkClient#doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" id="com.agentrj.core.home/TalkClient#sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateAgentsRef" id="com.agentrj.core.home/TalkClient#updateAgentsRef([Lcom.agentrj.core.agents.ref.AgentRef;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.home/ITalkClient&lt;-com.agentrj.core.home/TalkClient" source="//@children.14" target="//@children.15" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.14/@sourceConnections.0" name="ITalkClient" location="407,1404" size="287,171" stereotype="interface" id="com.agentrj.core.home/ITalkClient" runTimeClassModel="receptAgent(Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;),updateAgentsRef([Lcom.agentrj.core.agents.ref.AgentRef;),sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;),setRouter(Lcom.agentrj.core.router.ITalkServer;),doJobAgent(Lcom.agentrj.core.agents.Agent;),doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="updateAgentsRef" id="com.agentrj.core.home/ITalkClient#updateAgentsRef([Lcom.agentrj.core.agents.ref.AgentRef;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doJobAgent" id="com.agentrj.core.home/ITalkClient#doJobAgent(Lcom.agentrj.core.agents.Agent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receptAgent" id="com.agentrj.core.home/ITalkClient#receptAgent(Lcom.agentrj.core.agents.Agent;Lcom.agentrj.core.agents.AgentProxy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRouter" id="com.agentrj.core.home/ITalkClient#setRouter(Lcom.agentrj.core.router.ITalkServer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" id="com.agentrj.core.home/ITalkClient#sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doJobAgent" id="com.agentrj.core.home/ITalkClient#doJobAgent(Lcom.agentrj.core.agents.ref.AgentRef;Ljava.lang.Object;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="HomeInfoImpl" location="123,225" size="175,247" id="com.agentrj.core.home/HomeInfoImpl" runTimeClassModel="toString(),HomeInfoImpl(),host,HomeInfoImpl(Ljava.net.URL;),equals(Lcom.agentrj.core.agents.HomeInfo;),getURL(),setPort(I),HomeInfoImpl(Ljava.lang.String;),name,getPort(),setURL(Ljava.net.URL;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="com.agentrj.core.home/HomeInfoImpl#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="host" id="com.agentrj.core.home/HomeInfoImpl#host"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,162">
+      <children xsi:type="editmodel:MethodEditModel" name="HomeInfoImpl" id="com.agentrj.core.home/HomeInfoImpl#HomeInfoImpl()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="HomeInfoImpl" id="com.agentrj.core.home/HomeInfoImpl#HomeInfoImpl(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="HomeInfoImpl" id="com.agentrj.core.home/HomeInfoImpl#HomeInfoImpl(Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="com.agentrj.core.home/HomeInfoImpl#equals(Lcom.agentrj.core.agents.HomeInfo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.agentrj.core.home/HomeInfoImpl#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPort" id="com.agentrj.core.home/HomeInfoImpl#getPort()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getURL" id="com.agentrj.core.home/HomeInfoImpl#getURL()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPort" id="com.agentrj.core.home/HomeInfoImpl#setPort(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setURL" id="com.agentrj.core.home/HomeInfoImpl#setURL(Ljava.net.URL;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/HomeInfo&lt;-com.agentrj.core.home/HomeInfoImpl" source="//@children.16" target="//@children.17" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,125"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.16/@sourceConnections.0" name="HomeInfo" location="50,50" size="278,125" stereotype="interface" id="com.agentrj.core.agents/HomeInfo" runTimeClassModel="uRL,host,port,name">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="port" id="com.agentrj.core.agents/HomeInfo#port"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="com.agentrj.core.agents/HomeInfo#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="uRL" id="com.agentrj.core.agents/HomeInfo#uRL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="host" id="com.agentrj.core.agents/HomeInfo#host"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MessageManagerImpl" location="505,1193" size="295,103" id="com.agentrj.core.home/MessageManagerImpl" runTimeClassModel="handleMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;),sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;),MessageManagerImpl(Lcom.agentrj.core.agents.IHome;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MessageManagerImpl" id="com.agentrj.core.home/MessageManagerImpl#MessageManagerImpl(Lcom.agentrj.core.agents.IHome;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMessage" id="com.agentrj.core.home/MessageManagerImpl#handleMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" id="com.agentrj.core.home/MessageManagerImpl#sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.agentrj.core.agents/MessageManager&lt;-com.agentrj.core.home/MessageManagerImpl" source="//@children.18" target="//@children.19" targetEnd="//@children.18/@sourceConnections.0/@children.1" sourceEnd="//@children.18/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="200,99"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.18/@sourceConnections.0" name="MessageManager" location="432,1044" size="328,99" stereotype="interface" id="com.agentrj.core.agents/MessageManager" runTimeClassModel="sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;),handleMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,36">
+      <children xsi:type="editmodel:MethodEditModel" name="handleMessage" id="com.agentrj.core.agents/MessageManager#handleMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" id="com.agentrj.core.agents/MessageManager#sendMessage(Lcom.agentrj.core.agents.Message;Lcom.agentrj.core.agents.AgentAddress;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

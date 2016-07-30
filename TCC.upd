@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ComponentDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="TCC" size="967,696" description="" metadata="uml2-1.0" initialized="true" tag="1000" key="3230303431303236205443432F41646D696E6973747261646F72">
+  <children xsi:type="editmodel:ComponentEditModel" location="280,120" size="107,71" stereotype="framework" taggedValues="{profile.object.name=Teste}" itemName="Teste"/>
+  <diagramOptions xsi:type="options:ComponentDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:ComponentDiagramEditModel>

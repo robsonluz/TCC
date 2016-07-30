@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:CollaborationDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="TCC" metadata="uml2-1.0" initialized="true" tag="1000" key="3230303431303236205443432F41646D696E6973747261646F72">
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.1/@sourceConnections.0" location="170,80" size="88,34" id="com.agentrj.core.agents/Agent" itemName="Agent" role=""/>
+  <children xsi:type="editmodel:CollaborationActorEditModel" location="179,220" size="70,128" stereotype="Usuário" itemName="Robson">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" id="com.agentrj.core.agents/Agent#setStub(Lcom.agentrj.core.agents.AgentStub;)" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true" associatedMethod="setStub(AgentStub)" associatedSequenceNumber="">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="35,0" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="44,34"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="setStub(AgentStub)" size="117,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <diagramOptions xsi:type="options:CollaborationDiagramOptions" level="0"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:CollaborationDiagramEditModel>

@@ -1,0 +1,13 @@
+CREATE CACHED TABLE system_agents(
+idAgent INTEGER IDENTITY PRIMARY KEY,
+name VARCHAR(40) NOT NULL,
+version VARCHAR(15) NOT NULL,
+className VARCHAR(255) NOT NULL,
+data BIGINT,
+nameJar VARCHAR(255) NOT NULL,
+UNIQUE(name),
+UNIQUE(className)
+);
+
+INSERT INTO system_agents(name,version,className,data,nameJar,idAgent) 
+VALUES('name','name','name',101010,'name',0);

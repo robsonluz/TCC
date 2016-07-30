@@ -1,0 +1,52 @@
+<project name="agentrj" default="all" basedir=".">
+  <target name="all" depends="init,compile,stubs,clear,jar,copy"/>
+  
+  <target name="init">
+    <property name="name" value="agentrj" />
+    <property name="build.compiler" value="modern"/>
+    <property name="classes" value="classes" />
+    <property name="lib" value="lib" />
+    <property name="src" value="src" />
+    <property name="autor" value="Robson Joao padilha da Luz" />
+  </target>
+ 
+  <target name="compile">
+  	  <delete dir="${classes}"/>
+	  <mkdir dir="${classes}"/>
+	  <javac srcdir="${src}"
+	         destdir="${classes}"
+	         classpath="${lib}/jeans.jar;${lib}/log4j.jar"
+	         debug="on"
+	  />
+  </target>
+ 
+  <target name="jar">
+    <jar jarfile="${lib}/${name}.jar"
+         basedir="${classes}"
+         includes="com/agentrj/core/**,com/agentrj/impl/**">
+         <fileset dir="${src}/" includes="resources/*"/>
+	    <manifest>
+	      <attribute name="Built-By" value="${autor}"/>
+	    </manifest>
+    </jar>
+  </target>
+  
+  <target name="stubs" depends="init">
+  	<rmic base="${classes}" classname="com.agentrj.core.home.TalkClient"/>
+  	<rmic base="${classes}" classname="com.agentrj.core.router.TalkServer"/>
+  </target>
+  
+  <target name="copy">
+	  <copy file="${lib}/${name}.jar" toDir="F:/Home/lib/"/>
+  	  <copy file="${lib}/${name}.jar" toDir="F:/robson/Unicentro/TCC/Prototipos/AgentRJ 0.1/lib/"/>
+  	  <copy file="${lib}/${name}.jar" toDir="F:/robson/java/eclipse/workspace/Agents/lib/"/>
+  </target>
+  
+  <target name="clear">
+  	  <delete file="${lib}/${name}.jar"/>
+  	  <delete file="F:/Home/lib/${name}.jar"/>
+	  <delete file="F:/robson/Unicentro/TCC/Prototipos/AgentRJ 0.1/lib/${name}.jar"/>
+	  <delete file="F:/robson/java/eclipse/workspace/Agents/lib/${name}.jar"/>
+  </target>
+  
+</project>
